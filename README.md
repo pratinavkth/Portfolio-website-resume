@@ -26,5 +26,5 @@ Feel free to fork this project and make improvements. Pull requests are always w
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions, feel free to reach out to me via email at [your-email@example.com].
+For any questions, feel free to reach out to me via email at [pratinavkothia123@gmail.com].
 
