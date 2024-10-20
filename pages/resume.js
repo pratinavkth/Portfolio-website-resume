@@ -29,10 +29,7 @@ const Resume = () => {
     <>
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
-          <Button onClick={() => router.push("/edit")} type={"primary"}>
-            Edit Resume
-          </Button>
-        </div>
+                  </div>
       )}
       {data.showCursor && <Cursor />}
       <div
@@ -57,7 +54,7 @@ const Resume = () => {
                 <Socials />
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
+                <h1 className="text-2xl font-bold text-blue-600">Experience</h1>
 
                 {resume?.resume?.experiences?.map(
                   ({ id, dates, type, position, bullets }) => (
